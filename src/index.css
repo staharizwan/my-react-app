@@ -1,0 +1,51 @@
+body{
+    background-image: url("assets/Eibsee.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    max-height: 100vh;
+}
+.clock, .timeZone{
+    color: white;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+}
+.clock span{
+    font-size: 4rem;
+}
+.clock-container{
+    backdrop-filter: blur(5px);
+    width: 100vw;
+    padding: 10px 8px;
+}
+.timeZone{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    padding: 10px 8px;
+    font-size: 4rem;
+}
+.timeZone button{
+    font-family: monospace;
+    font-size: 28px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    color: white;
+    border: none;
+    text-shadow: 3px 3px 5px hsla(0, 0%, 0%, 0.75);
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 8px 10px;
+    cursor: pointer;
+}
+.timeZone :hover{
+    backdrop-filter: blur(75px);
+}
